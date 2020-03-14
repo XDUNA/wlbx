@@ -1,0 +1,45 @@
+<div class="domain">
+    <div class="container">
+        <div class="row PageHead">
+            <div class="col-md-12">
+                <h1 id="search_main_header"></h1>
+                <h3 id="search_sub_header"></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+<!--                           <span data-container="body" data-toggle="popover" data-placement="top" data-content="" id="searchbox_popover"></span>-->
+                            <input class="form-control text-uppercase text-center" type="text" id="searchbox" maxlength="4" data-container="body" data-toggle="popover" data-placement="top" data-content=" " data-trigger="focus" onFocus="creatqrcode();">
+                    </div>
+                    <div class="col-sm-12 text-center" id="searchbox_btn">
+
+                        <button class="btn btn-primary btn-lg" onClick="search();" id="search_btn"></button>
+						<!--	2018-9-9-16-25 添加按钮防迷路-->
+						<button class="btn btn-info btn-lg" onClick="go2service();" id="go2service_btn"></button>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="clearfix" style="height: 50px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="service-section" id="service">
+    <div class="container">
+        <div class="service-section-head text-center" data-wow-delay="0.4s">
+            <h3 id="service_main_header"></h3>
+            <p id="service_sub_header"></p>
+        </div>
+        <div class="service-section-grids">
+            <div class="col-md-6 service-grid" id="servicebox_left">
+                <!--			此处添加服务框			-->
+            </div>
+            <div class="col-md-6 service-grid" id="servicebox_right">
+<!--			此处添加服务框			-->
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
